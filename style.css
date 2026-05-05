@@ -1,0 +1,35 @@
+body { 
+    margin: 0; 
+    background: #1a1a1a; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    font-family: 'Courier New', Courier, monospace; /* Fonte estilo retrô */
+    position: relative;
+}
+
+canvas { 
+    background: #000; 
+    border: 4px solid #fff; 
+}
+
+/* Botão de Start que aparece na tela inicial */
+#btnStart {
+    position: absolute;
+    padding: 15px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border: 3px solid #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.2s;
+    font-family: inherit;
+}
+
+#btnStart:hover {
+    background-color: #fff;
+    color: #000;
+}
